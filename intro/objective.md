@@ -11,8 +11,15 @@ gerar a imagem do objeto de acordo com o sistema de referência da câmera (SRC)
 que seria um recorte da imagem em questão. Como a imagem é 2D, esse recorte é um
 retângulo - nesse caso, uma janela do openGL, onde conseguiremos ver o objeto de frente
 
-Antes, precisamos converter o sistema de referência RPO (do objeto) para RPU (em
-referência ao 'universo')
-![RPU](https://user-images.githubusercontent.com/86981064/233833177-d9848361-0630-466e-8cd5-ce2e68a55eec.png)
 
+O SRC vai ser um quadrado entorno da entidade de interesse. Para isso, será feita
+uma transformação no sistema de coordenadas originais,
+de fora que os vértices ficam:
+A = 0.5, 1.5
+B = 1.5, 1.5
+C = 1.5, 0.5
+D = 0.5, 0.5
+E = 1, 2
+
+<img src="/temp/SRC.png">
 
