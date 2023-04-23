@@ -3,7 +3,6 @@ Objetivo:
 Um objeto foi pré descrito geométricamente por um conjunto de arestas, 
 usando o sistema de referência do objeto (SRO)
 
-<img src="/temp/SRO.png">
 
 
 Objetivo: 
@@ -21,5 +20,5 @@ C = 1.5, 0.5
 D = 0.5, 0.5
 E = 1, 2
 
-<img src="/temp/SRC.png">
-
+[<img src="static/SRC.png">
+](https://github.com/sabrinakappann/comp-graphics-open-gl/blob/main/static/SRC.png)
