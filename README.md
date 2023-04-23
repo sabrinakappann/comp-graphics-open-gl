@@ -1,2 +1,2 @@
 # comp-graphics-open-gl
-Projetos da disciplina Computação gráfica usando OpenGl com C ou C++
+Práticas da disciplina Computação gráfica usando OpenGl com C ou C++
