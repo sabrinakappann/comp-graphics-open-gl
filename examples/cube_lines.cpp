@@ -42,6 +42,7 @@ void drawLine(float vertixOne[3], float vertixTwo[3], float colorRgb[3]) {
     gluLookAt(1, 1, -3, //< eye position
               0, 0, 0,  //< aim position
               0, 1, 0); //< up direction
+
     glColor3f(colorRgb[0], colorRgb[1], colorRgb[2]);
     glBegin(GL_LINES);
     glVertex3f(vertixOne[0], vertixOne[1], vertixOne[2]);
